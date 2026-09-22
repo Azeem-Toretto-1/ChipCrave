@@ -1,0 +1,1184 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== SEO ===============-->
+    <title>ChipCrave — Snack With No Limits | Premium Chips</title>
+    <meta name="description" content="ChipCrave is your go-to online store for gourmet chips. Shop Crab, Cheese, BBQ, Hot, and Mix Chips. Order online with fast delivery." />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://chipcrave.example.com/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="ChipCrave" />
+    <meta property="og:title" content="ChipCrave — Snack With No Limits" />
+    <meta property="og:description" content="Shop gourmet Crab, Cheese, BBQ, Hot, and Mix Chips. Fast delivery. Premium snack experience." />
+    <meta property="og:url" content="https://chipcrave.example.com/" />
+    <meta property="og:image" content="assets/img/favicon.png" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="ChipCrave — Snack With No Limits" />
+    <meta name="twitter:description" content="Shop gourmet chips online. Fast delivery. Premium snack experience." />
+    <meta name="twitter:image" content="assets/img/favicon.png" />
+
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon"
+    />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css"
+    />
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/components.css" />
+    <link rel="stylesheet" href="assets/css/ecommerce.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+
+    <!--=============== JSON-LD STRUCTURED DATA ===============-->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Store",
+      "name": "ChipCrave",
+      "description": "Premium gourmet chips online store. Shop Crab, Cheese, BBQ, Hot, and Mix Chips with fast delivery.",
+      "url": "https://chipcrave.example.com/",
+      "logo": "assets/img/favicon.png",
+      "sameAs": [
+        "https://www.facebook.com/",
+        "https://www.instagram.com/",
+        "https://twitter.com/"
+      ]
+    }
+    </script>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#home" class="nav_logo">CHIPCRAVE</a>
+
+        <div class="nav_menu" id="nav-menu">
+          <ul class="nav_list">
+            <li>
+              <a href="#home" class="nav_link active-link">Home</a>
+            </li>
+
+            <li>
+              <a href="#favorites" class="nav_link">Favorites</a>
+            </li>
+
+            <li>
+              <a href="#care" class="nav_link">Care</a>
+            </li>
+
+            <li>
+              <a href="#products" class="nav_link">Products</a>
+            </li>
+
+            <li>
+              <a href="#contact" class="nav_link">Contact</a>
+            </li>
+
+            <li>
+              <a href="#tracking" class="nav_link" id="nav-track-link">Track Order</a>
+            </li>
+          </ul>
+
+          <!-- Close Button -->
+          <div class="nav_close" id="nav-close">
+            <i class="ri-close-large-line"></i>
+          </div>
+
+          <div class="nav_social">
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              class="nav_social-link"
+              aria-label="Facebook"
+            >
+              <i class="ri-facebook-circle-line"></i>
+            </a>
+
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              class="nav_social-link"
+              aria-label="Instagram"
+            >
+              <i class="ri-instagram-line"></i>
+            </a>
+
+            <a
+              href="https://twitter.com/"
+              target="_blank"
+              class="nav_social-link"
+              aria-label="Twitter"
+            >
+              <i class="ri-twitter-x-line"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Nav Action Buttons (Wishlist & Cart) -->
+        <div class="nav_actions">
+          <button
+            class="nav_action-btn"
+            id="wishlist-btn"
+            title="View Wishlist"
+            aria-label="View Wishlist"
+          >
+            <i class="ri-heart-3-line"></i>
+            <span class="nav_badge" id="wishlist-count">0</span>
+          </button>
+
+          <button
+            class="nav_action-btn"
+            id="cart-btn"
+            title="View Cart"
+            aria-label="View Cart"
+          >
+            <i class="ri-shopping-bag-3-line"></i>
+            <span class="nav_badge" id="cart-count">0</span>
+          </button>
+
+          <!-- Toggle Button -->
+          <div class="nav_toggle" id="nav-toggle" aria-label="Toggle navigation">
+            <i class="ri-apps-2-line"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home_container container grid">
+          <div class="home_data">
+            <h1 class="home_title">
+              SNACK <br />
+              WITH NO <br />
+              LIMITS
+            </h1>
+
+            <p class="home_description">
+              When you are hungry and don't have time to cook, snacks are the
+              perfect solution, always prepare for midday hunger.
+            </p>
+
+            <img
+              src="./assets/img/meat.png"
+              alt="Home-Meat-Image"
+              class="home_meat"
+            />
+
+            <div class="home_buttons">
+              <a href="#products" class="button">Snack Now</a>
+              <a href="#products" class="button button_ghost">Buy Now</a>
+            </div>
+          </div>
+
+          <div class="home_images">
+            <div class="home_circle">
+              <div class="home_subcircle"></div>
+            </div>
+
+            <img
+              src="./assets/img/home-chips.png"
+              alt="Home-Chips-Image"
+              class="home_img"
+            />
+
+            <img
+              src="./assets/img/chips-1.png"
+              alt="Home-Chips-1-Image"
+              class="home_chips-1"
+            />
+            <img
+              src="./assets/img/chips-2.png"
+              alt="Home-Chips-2-Image"
+              class="home_chips-2"
+            />
+            <img
+              src="./assets/img/chips-3.png"
+              alt="Home-Chips-3-Image"
+              class="home_chips-3"
+            />
+            <img
+              src="./assets/img/tomato-1.png"
+              alt="Home-Tomato-1-Image"
+              class="home_tomato-1"
+            />
+            <img
+              src="./assets/img/tomato-2.png"
+              alt="Home-Tomato-2-Image"
+              class="home_tomato-2"
+            />
+            <img
+              src="./assets/img/leaf-3.png"
+              alt="Home-Leaf-3-Image"
+              class="home_leaf"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!--==================== FAVORITES ====================-->
+      <section class="favorite section" id="favorites">
+        <div class="favorites_container container grid">
+          <div class="favorites_data">
+            <h2 class="section_title">
+              DISCOVER YOUR <br />
+              FAVORITE FLAVORS
+            </h2>
+
+            <p class="favorites_description">
+              Try some exotic flavors or delicious toppings. We have collected
+              some delicious snack recipes from around the world for you.
+            </p>
+
+            <img
+              src="./assets/img/cheese.png"
+              alt="Favorites-Cheese-Image"
+              class="favorites_cheese-1"
+            />
+            <img
+              src="./assets/img/cheese.png"
+              alt="Favorites-Cheese-Image"
+              class="favorites_cheese-2"
+            />
+          </div>
+
+          <div class="favorites_swiper swiper">
+            <div class="swiper-wrapper">
+              <article class="favorites_article swiper-slide">
+                <img
+                  src="./assets/img/favorite-chips-1.png"
+                  alt="Favorites-Chips-1-Image"
+                  class="favorites_img"
+                />
+
+                <img
+                  src="./assets/img/leaf-1.png"
+                  alt="Favorites-Leaf-1-Image"
+                  class="favorites_leaf-1"
+                />
+                <img
+                  src="./assets/img/leaf-2.png"
+                  alt="Favorites-Leaf-2-Image"
+                  class="favorites_leaf-2"
+                />
+              </article>
+
+              <article class="favorites_article swiper-slide">
+                <img
+                  src="./assets/img/favorite-chips-2.png"
+                  alt="Favorites-Chips-2-Image"
+                  class="favorites_img"
+                />
+
+                <img
+                  src="./assets/img/leaf-1.png"
+                  alt="Favorites-Leaf-1-Image"
+                  class="favorites_leaf-1"
+                />
+                <img
+                  src="./assets/img/leaf-2.png"
+                  alt="Favorites-Leaf-2-Image"
+                  class="favorites_leaf-2"
+                />
+              </article>
+
+              <article class="favorites_article swiper-slide">
+                <img
+                  src="./assets/img/favorite-chips-3.png"
+                  alt="Favorites-Chips-3-Image"
+                  class="favorites_img"
+                />
+
+                <img
+                  src="./assets/img/leaf-1.png"
+                  alt="Favorites-Leaf-1-Image"
+                  class="favorites_leaf-1"
+                />
+                <img
+                  src="./assets/img/leaf-2.png"
+                  alt="Favorites-Leaf-2-Image"
+                  class="favorites_leaf-2"
+                />
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== CARE ====================-->
+      <section class="care section" id="care">
+        <h2 class="section_title">
+          ENJOY AND TAKE <br />
+          CARE OF YOUR HEALTH
+        </h2>
+
+        <div class="care_container container grid">
+          <ul class="care_list">
+            <li class="care_item">
+              <i class="ri-plant-line"></i>
+              <p>
+                The potatoes that are made into snacks are grown and harvested
+                and are 100% organic.
+              </p>
+            </li>
+
+            <li class="care_item">
+              <i class="ri-fire-line"></i>
+              <p>
+                We fry the fries with vegetable and natural oil for good care.
+              </p>
+            </li>
+
+            <li class="care_item">
+              <i class="ri-heart-pulse-line"></i>
+              <p>
+                The potatoes are not processed, once cleaned they are cooked
+                without preservatives.
+              </p>
+            </li>
+
+            <li class="care_item">
+              <i class="ri-hand-heart-line"></i>
+              <p>They contain fewer calories and less fat for good health.</p>
+            </li>
+          </ul>
+
+          <img
+            src="./assets/img/care-chips.png"
+            alt="Care-Chips-Image"
+            class="care_img"
+          />
+        </div>
+      </section>
+
+      <!--==================== BANNER ====================-->
+      <section class="banner">
+        <div class="banner_container">
+          <ul class="banner_list">
+            <li class="banner_item">
+              <i class="ri-leaf-line"></i>
+              <span>GOOD FOR NATURE</span>
+            </li>
+
+            <li class="banner_item">
+              <i class="ri-heart-pulse-line"></i>
+              <span>LOW CALORIES</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!--==================== PRODUCTS ====================-->
+      <section class="products section" id="products">
+        <h2 class="section_title">
+          BEST SELLING <br />
+          PRODUCT
+        </h2>
+
+        <div class="products_container container">
+          <div class="products_content grid">
+            <!-- Product 1: Crab Chips -->
+            <article class="products_card" data-id="1">
+              <img
+                src="./assets/img/product-chips-1.png"
+                alt="Crab Chips"
+                class="products_img"
+              />
+
+              <div class="products_rating">
+                <i class="ri-star-fill"></i>
+                <span>4.8</span>
+              </div>
+
+              <span class="products_subtitle">Crab</span>
+              <h2 class="products_title">Chips</h2>
+
+              <span class="products_price">$8</span>
+
+              <button
+                class="products_button"
+                aria-label="View Crab Chips details"
+                data-id="1"
+                title="View Details"
+              >
+                <i class="ri-arrow-right-up-line"></i>
+              </button>
+            </article>
+
+            <!-- Product 2: Cheese Chips -->
+            <article class="products_card" data-id="2">
+              <img
+                src="./assets/img/product-chips-2.png"
+                alt="Cheese Chips"
+                class="products_img"
+              />
+
+              <div class="products_rating">
+                <i class="ri-star-fill"></i>
+                <span>4.9</span>
+              </div>
+
+              <span class="products_subtitle">Cheese</span>
+              <h2 class="products_title">Chips</h2>
+
+              <span class="products_price">$5</span>
+
+              <button
+                class="products_button"
+                aria-label="View Cheese Chips details"
+                data-id="2"
+                title="View Details"
+              >
+                <i class="ri-arrow-right-up-line"></i>
+              </button>
+            </article>
+
+            <!-- Product 3: BBQ Chips -->
+            <article class="products_card" data-id="3">
+              <img
+                src="./assets/img/product-chips-3.png"
+                alt="BBQ Chips"
+                class="products_img"
+              />
+
+              <div class="products_rating">
+                <i class="ri-star-fill"></i>
+                <span>4.7</span>
+              </div>
+
+              <span class="products_subtitle">BBQ</span>
+              <h2 class="products_title">Chips</h2>
+
+              <span class="products_price">$6</span>
+
+              <button
+                class="products_button"
+                aria-label="View BBQ Chips details"
+                data-id="3"
+                title="View Details"
+              >
+                <i class="ri-arrow-right-up-line"></i>
+              </button>
+            </article>
+
+            <!-- Product 4: Hot Chips -->
+            <article class="products_card" data-id="4">
+              <img
+                src="./assets/img/product-chips-4.png"
+                alt="Hot Chips"
+                class="products_img"
+              />
+
+              <div class="products_rating">
+                <i class="ri-star-fill"></i>
+                <span>4.9</span>
+              </div>
+
+              <span class="products_subtitle">Hot</span>
+              <h2 class="products_title">Chips</h2>
+
+              <span class="products_price">$9</span>
+
+              <button
+                class="products_button"
+                aria-label="View Hot Chips details"
+                data-id="4"
+                title="View Details"
+              >
+                <i class="ri-arrow-right-up-line"></i>
+              </button>
+            </article>
+
+            <!-- Product 5: Mix Chips -->
+            <article class="products_card" data-id="5">
+              <img
+                src="./assets/img/product-chips-5.png"
+                alt="Mix Chips"
+                class="products_img"
+              />
+
+              <div class="products_rating">
+                <i class="ri-star-fill"></i>
+                <span>5.0</span>
+              </div>
+
+              <span class="products_subtitle">Mix</span>
+              <h2 class="products_title">Chips</h2>
+
+              <span class="products_price">$11</span>
+
+              <button
+                class="products_button"
+                aria-label="View Mix Chips details"
+                data-id="5"
+                title="View Details"
+              >
+                <i class="ri-arrow-right-up-line"></i>
+              </button>
+            </article>
+          </div>
+
+          <img
+            src="./assets/img/crab.png"
+            alt="Products-Crab-Image"
+            class="products_crab"
+          />
+          <img
+            src="./assets/img/hamburger.png"
+            alt="Products-Hamburger-Image"
+            class="products_hamburger"
+          />
+          <img
+            src="./assets/img/cheese.png"
+            alt="Products-Cheese-Image"
+            class="products_cheese"
+          />
+        </div>
+      </section>
+
+      <!--==================== CONTACT ====================-->
+      <section class="contact section" id="contact">
+        <div class="contact_container container">
+          <h2 class="section_title">
+            CONTACT US TO <br />
+            EAT CHIPS
+          </h2>
+
+          <div class="contact_content grid">
+            <div class="contact_data grid">
+              <div>
+                <h3 class="contact_title">Write to us</h3>
+
+                <div class="contact_social">
+                  <a
+                    href="https://api.whatsapp.com/send?phone=51123456789&text=Hello,%20more%20information!"
+                    target="_blank"
+                    aria-label="WhatsApp"
+                  >
+                    <i class="ri-whatsapp-fill"></i>
+                  </a>
+
+                  <a
+                    href="https://m.me/Azeem-Toretto"
+                    target="_blank"
+                    aria-label="Messenger"
+                  >
+                    <i class="ri-messenger-fill"></i>
+                  </a>
+
+                  <a
+                    href="mailto:examplemail@correo.com"
+                    target="_blank"
+                    aria-label="Email"
+                  >
+                    <i class="ri-mail-fill"></i>
+                  </a>
+                </div>
+              </div>
+
+              <div>
+                <h3 class="contact_title">Call us</h3>
+
+                <address class="contact_info">
+                  +00-987-7654-321 <br />
+                  +11-012345
+                </address>
+              </div>
+
+              <div>
+                <h3 class="contact_title">Find us here</h3>
+
+                <address class="contact_info">
+                  Lima - Sun City - Peru <br />
+                  Av. Moon #4321
+                </address>
+              </div>
+            </div>
+
+            <img
+              src="./assets/img/contact-man.png"
+              alt="Contact-Man-Image"
+              class="contact_img"
+            />
+          </div>
+
+          <img
+            src="./assets/img/shrimp.png"
+            alt="Contact-Shrimp-Image"
+            class="contact_shrimp"
+          />
+          <img
+            src="./assets/img/crab.png"
+            alt="Contact-Crab-Image"
+            class="contact_crab"
+          />
+          <img
+            src="./assets/img/meat.png"
+            alt="Contact-Meat-Image"
+            class="contact_meat"
+          />
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer_container container grid">
+        <a href="#home" class="footer_logo">ChipCrave</a>
+
+        <div class="footer_content grid">
+          <a href="#" class="footer_link">Terms & Agreements</a>
+          <a href="#" class="footer_link">Privacy Policy</a>
+
+          <span class="footer_copy">
+            &#169; All Rights Reserved By Azeem-Toretto
+          </span>
+        </div>
+      </div>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up" aria-label="Scroll to top">
+      <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <!--==================== PRODUCT DETAIL MODAL ====================-->
+    <div class="modal" id="product-modal" role="dialog" aria-modal="true" aria-hidden="true">
+      <div class="modal_backdrop" data-close-modal></div>
+      <div class="modal_wrapper">
+        <div class="modal_card product_modal_card">
+          <button class="modal_close_btn" data-close-modal aria-label="Close modal">
+            <i class="ri-close-line"></i>
+          </button>
+
+          <div class="product_modal_grid">
+            <div class="product_modal_image_col">
+              <div class="product_modal_circle">
+                <div class="product_modal_subcircle"></div>
+              </div>
+              <img
+                src="./assets/img/product-chips-1.png"
+                alt="Product Preview"
+                id="modal-product-img"
+                class="product_modal_img"
+              />
+            </div>
+
+            <div class="product_modal_details_col">
+              <span class="product_modal_subtitle" id="modal-product-subtitle">Crab</span>
+              <h2 class="product_modal_title" id="modal-product-title">Chips</h2>
+
+              <div class="product_modal_rating_wrap">
+                <div class="product_modal_stars" id="modal-product-stars">
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-half-fill"></i>
+                </div>
+                <span class="product_modal_rating_score" id="modal-product-rating">4.8</span>
+                <span class="product_modal_rating_badge">Top Rated</span>
+              </div>
+
+              <p class="product_modal_description" id="modal-product-desc">
+                Crispy and savory gourmet crab flavored chips with a rich seafood crunch.
+              </p>
+
+              <div class="product_modal_price_wrap">
+                <span class="product_modal_price_label">Price:</span>
+                <span class="product_modal_price" id="modal-product-price">$8</span>
+              </div>
+
+              <!-- Quantity selector -->
+              <div class="product_modal_qty_wrap">
+                <span class="product_modal_qty_label">Quantity:</span>
+                <div class="qty_stepper">
+                  <button type="button" class="qty_btn" id="modal-qty-minus" aria-label="Decrease quantity">
+                    <i class="ri-subtract-line"></i>
+                  </button>
+                  <span class="qty_value" id="modal-qty-val">1</span>
+                  <button type="button" class="qty_btn" id="modal-qty-plus" aria-label="Increase quantity">
+                    <i class="ri-add-line"></i>
+                  </button>
+                </div>
+              </div>
+
+              <!-- Action Buttons -->
+              <div class="product_modal_actions">
+                <button type="button" class="button product_modal_add_btn" id="modal-add-to-cart">
+                  <i class="ri-shopping-bag-3-line"></i>
+                  <span>Add to Cart</span>
+                </button>
+
+                <button
+                  type="button"
+                  class="product_modal_wishlist_btn"
+                  id="modal-wishlist-toggle"
+                  aria-label="Toggle Wishlist"
+                  title="Save to Wishlist"
+                >
+                  <i class="ri-heart-line"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--==================== CART DEDICATED EXPERIENCE ====================-->
+    <div class="modal" id="cart-modal" role="dialog" aria-modal="true" aria-hidden="true">
+      <div class="modal_backdrop" data-close-cart></div>
+      <div class="modal_wrapper">
+        <div class="modal_card cart_modal_card">
+          <div class="modal_header">
+            <div class="modal_header_title_wrap">
+              <i class="ri-shopping-bag-3-fill modal_header_icon"></i>
+              <h2 class="modal_header_title">Your Snack Cart</h2>
+              <span class="modal_header_badge" id="cart-header-count">
+                <span class="badge_num">0</span>
+                <span class="badge_label">Items</span>
+              </span>
+            </div>
+            <button class="modal_close_btn" data-close-cart aria-label="Close cart">
+              <i class="ri-close-line"></i>
+            </button>
+          </div>
+
+          <!-- Empty Cart State -->
+          <div class="empty_state" id="cart-empty-state" style="display: none;">
+            <div class="empty_icon_circle">
+              <i class="ri-shopping-basket-line"></i>
+            </div>
+            <h3 class="empty_title">Your Cart is Empty</h3>
+            <p class="empty_desc">Start adding your favorite chips to satisfy your snack cravings!</p>
+            <button type="button" class="button" data-close-cart>Explore Chips</button>
+          </div>
+
+          <!-- Cart Layout with Items & Summary -->
+          <div class="cart_content_layout" id="cart-content-layout">
+            <div class="cart_items_list" id="cart-items-container">
+              <!-- Rendered dynamically -->
+            </div>
+
+            <div class="cart_summary_card">
+              <h3 class="cart_summary_title">Order Summary</h3>
+
+              <div class="cart_summary_row">
+                <span>Subtotal</span>
+                <span id="cart-summary-subtotal">$0.00</span>
+              </div>
+
+              <div class="cart_summary_row">
+                <span>Delivery Fee</span>
+                <span id="cart-summary-delivery">$0.00</span>
+              </div>
+
+              <div class="cart_summary_divider"></div>
+
+              <div class="cart_summary_row cart_summary_total_row">
+                <span>Total</span>
+                <span id="cart-summary-total">$0.00</span>
+              </div>
+
+              <div class="cart_summary_actions">
+                <button type="button" class="button cart_checkout_btn" id="cart-proceed-checkout">
+                  <span>Proceed to Checkout</span>
+                  <i class="ri-arrow-right-line"></i>
+                </button>
+                <button type="button" class="button button_ghost cart_clear_btn" id="cart-clear-btn">
+                  <i class="ri-delete-bin-line"></i>
+                  <span>Clear Cart</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--==================== WISHLIST MODAL ====================-->
+    <div class="modal" id="wishlist-modal" role="dialog" aria-modal="true" aria-hidden="true">
+      <div class="modal_backdrop" data-close-wishlist></div>
+      <div class="modal_wrapper">
+        <div class="modal_card wishlist_modal_card">
+          <div class="modal_header">
+            <div class="modal_header_title_wrap">
+              <i class="ri-heart-3-fill modal_header_icon"></i>
+              <h2 class="modal_header_title">Your Wishlist</h2>
+              <span class="modal_header_badge" id="wishlist-header-count">
+                <span class="badge_num">0</span>
+                <span class="badge_label">Items</span>
+              </span>
+            </div>
+            <button class="modal_close_btn" data-close-wishlist aria-label="Close wishlist">
+              <i class="ri-close-line"></i>
+            </button>
+          </div>
+
+          <!-- Empty Wishlist State -->
+          <div class="empty_state" id="wishlist-empty-state" style="display: none;">
+            <div class="empty_icon_circle">
+              <i class="ri-heart-line"></i>
+            </div>
+            <h3 class="empty_title">Your Wishlist is Empty</h3>
+            <p class="empty_desc">Keep track of your favorite chip flavors and order whenever you crave!</p>
+            <button type="button" class="button" data-close-wishlist>Discover Flavors</button>
+          </div>
+
+          <!-- Wishlist Grid -->
+          <div class="wishlist_grid" id="wishlist-items-container">
+            <!-- Rendered dynamically -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--==================== CHECKOUT MODAL ====================-->
+    <div class="modal" id="checkout-modal" role="dialog" aria-modal="true" aria-hidden="true">
+      <div class="modal_backdrop" data-close-checkout></div>
+      <div class="modal_wrapper">
+        <div class="modal_card checkout_modal_card">
+          <div class="modal_header">
+            <div class="modal_header_title_wrap">
+              <i class="ri-shield-check-fill modal_header_icon"></i>
+              <h2 class="modal_header_title">Checkout</h2>
+            </div>
+            <button class="modal_close_btn" data-close-checkout aria-label="Close checkout">
+              <i class="ri-close-line"></i>
+            </button>
+          </div>
+
+          <form id="checkout-form" novalidate>
+            <div class="checkout_grid">
+              <!-- Customer & Delivery Info -->
+              <div class="checkout_col">
+                <h3 class="checkout_section_heading">
+                  <i class="ri-user-location-line"></i>
+                  <span>Delivery & Contact Details</span>
+                </h3>
+
+                <div class="form_group">
+                  <label for="checkout-name" class="form_label">Full Name *</label>
+                  <input
+                    type="text"
+                    id="checkout-name"
+                    class="form_input"
+                    placeholder="e.g. John Doe"
+                    required
+                  />
+                  <span class="form_error" id="err-name"></span>
+                </div>
+
+                <div class="form_row_2">
+                  <div class="form_group">
+                    <label for="checkout-email" class="form_label">Email Address *</label>
+                    <input
+                      type="email"
+                      id="checkout-email"
+                      class="form_input"
+                      placeholder="john@example.com"
+                      required
+                    />
+                    <span class="form_error" id="err-email"></span>
+                  </div>
+
+                  <div class="form_group">
+                    <label for="checkout-phone" class="form_label">Phone Number *</label>
+                    <input
+                      type="tel"
+                      id="checkout-phone"
+                      class="form_input"
+                      placeholder="+1 (555) 000-0000"
+                      required
+                    />
+                    <span class="form_error" id="err-phone"></span>
+                  </div>
+                </div>
+
+                <div class="form_group">
+                  <label for="checkout-address" class="form_label">Street Address *</label>
+                  <input
+                    type="text"
+                    id="checkout-address"
+                    class="form_input"
+                    placeholder="e.g. Av. Moon #4321, Apt 4B"
+                    required
+                  />
+                  <span class="form_error" id="err-address"></span>
+                </div>
+
+                <div class="form_row_2">
+                  <div class="form_group">
+                    <label for="checkout-city" class="form_label">City *</label>
+                    <input
+                      type="text"
+                      id="checkout-city"
+                      class="form_input"
+                      placeholder="e.g. Sun City"
+                      required
+                    />
+                    <span class="form_error" id="err-city"></span>
+                  </div>
+
+                  <div class="form_group">
+                    <label for="checkout-zip" class="form_label">Postal / ZIP Code *</label>
+                    <input
+                      type="text"
+                      id="checkout-zip"
+                      class="form_input"
+                      placeholder="e.g. 15001"
+                      required
+                    />
+                    <span class="form_error" id="err-zip"></span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Payment Method & Order Summary -->
+              <div class="checkout_col">
+                <h3 class="checkout_section_heading">
+                  <i class="ri-hand-coin-line"></i>
+                  <span>Payment Method</span>
+                </h3>
+
+                <div class="payment_options">
+                  <div class="payment_option_card active">
+                    <div class="payment_option_info">
+                      <div class="payment_option_header">
+                        <i class="ri-hand-coin-line"></i>
+                        <span class="payment_option_title">Cash on Delivery</span>
+                      </div>
+                      <span class="payment_option_desc">Pay with cash when your snack arrives</span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Mini Order Summary -->
+                <div class="checkout_summary_box">
+                  <div class="checkout_summary_row">
+                    <span>Items Total</span>
+                    <span id="checkout-subtotal">$0.00</span>
+                  </div>
+                  <div class="checkout_summary_row">
+                    <span>Delivery</span>
+                    <span id="checkout-delivery">$0.00</span>
+                  </div>
+                  <div class="checkout_summary_divider"></div>
+                  <div class="checkout_summary_row checkout_summary_total">
+                    <span>Grand Total</span>
+                    <span id="checkout-total">$0.00</span>
+                  </div>
+                </div>
+
+                <button type="submit" class="button checkout_submit_btn" id="place-order-btn">
+                  <i class="ri-check-double-line"></i>
+                  <span>Place Order Now</span>
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!--==================== ORDER CONFIRMATION MODAL ====================-->
+    <div class="modal" id="confirmation-modal" role="dialog" aria-modal="true" aria-hidden="true">
+      <div class="modal_backdrop" data-close-confirmation></div>
+      <div class="modal_wrapper">
+        <div class="modal_card confirmation_modal_card">
+          <div class="confirmation_celebration">
+            <div class="celebration_icon_wrap">
+              <i class="ri-checkbox-circle-fill"></i>
+            </div>
+            <h2 class="confirmation_title">Order Confirmed! 🎉</h2>
+            <p class="confirmation_subtitle">
+              Thank you for your order! Your crunchy treats are being prepared with care.
+            </p>
+          </div>
+
+          <div class="confirmation_details_card">
+            <div class="confirmation_row">
+              <span class="confirmation_label">Order ID:</span>
+              <span class="confirmation_value confirmation_order_id" id="confirm-order-id">CHP-00000</span>
+            </div>
+            <div class="confirmation_row">
+              <span class="confirmation_label">Total Paid / Due:</span>
+              <span class="confirmation_value" id="confirm-order-total">$0.00</span>
+            </div>
+            <div class="confirmation_row">
+              <span class="confirmation_label">Payment Method:</span>
+              <span class="confirmation_value" id="confirm-order-payment">Cash on Delivery</span>
+            </div>
+            <div class="confirmation_row">
+              <span class="confirmation_label">Delivery To:</span>
+              <span class="confirmation_value" id="confirm-order-address">-</span>
+            </div>
+          </div>
+
+          <div class="confirmation_actions">
+            <button type="button" class="button" id="confirm-track-btn">
+              <i class="ri-truck-line"></i>
+              <span>Track Order</span>
+            </button>
+            <button type="button" class="button button_ghost" data-close-confirmation>
+              <span>Continue Shopping</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--==================== ORDER TRACKING MODAL ====================-->
+    <div class="modal" id="tracking-modal" role="dialog" aria-modal="true" aria-hidden="true">
+      <div class="modal_backdrop" data-close-tracking></div>
+      <div class="modal_wrapper">
+        <div class="modal_card tracking_modal_card">
+          <div class="modal_header">
+            <div class="modal_header_title_wrap">
+              <i class="ri-route-line modal_header_icon"></i>
+              <h2 class="modal_header_title">Order Tracking</h2>
+            </div>
+            <button class="modal_close_btn" data-close-tracking aria-label="Close tracking">
+              <i class="ri-close-line"></i>
+            </button>
+          </div>
+
+          <!-- Empty Tracking State -->
+          <div class="empty_state" id="tracking-empty-state" style="display: none;">
+            <div class="empty_icon_circle">
+              <i class="ri-radar-line"></i>
+            </div>
+            <h3 class="empty_title">No Active Orders</h3>
+            <p class="empty_desc">You don't have any placed orders yet. Order your favorite snacks today!</p>
+            <button type="button" class="button" data-close-tracking>Browse Products</button>
+          </div>
+
+          <!-- Active Tracking Content -->
+          <div class="tracking_content" id="tracking-content">
+            <div class="tracking_banner">
+              <div class="tracking_banner_item">
+                <span class="tracking_banner_label">Order ID</span>
+                <span class="tracking_banner_value" id="track-order-id">CHP-00000</span>
+              </div>
+              <div class="tracking_banner_item">
+                <span class="tracking_banner_label">Placed On</span>
+                <span class="tracking_banner_value" id="track-order-date">Today</span>
+              </div>
+              <div class="tracking_banner_item">
+                <span class="tracking_banner_label">Current Status</span>
+                <span class="tracking_banner_status_badge" id="track-order-status">Preparing</span>
+              </div>
+            </div>
+
+            <!-- Visual Progress Timeline -->
+            <div class="tracking_timeline_wrap">
+              <div class="tracking_timeline" id="tracking-timeline">
+                <div class="timeline_step completed">
+                  <div class="timeline_icon">
+                    <i class="ri-check-line"></i>
+                  </div>
+                  <div class="timeline_content">
+                    <span class="timeline_title">Order Placed</span>
+                    <span class="timeline_desc">Order received</span>
+                  </div>
+                </div>
+
+                <div class="timeline_step completed">
+                  <div class="timeline_icon">
+                    <i class="ri-check-line"></i>
+                  </div>
+                  <div class="timeline_content">
+                    <span class="timeline_title">Confirmed</span>
+                    <span class="timeline_desc">Kitchen confirmed</span>
+                  </div>
+                </div>
+
+                <div class="timeline_step active">
+                  <div class="timeline_icon">
+                    <i class="ri-fire-fill"></i>
+                  </div>
+                  <div class="timeline_content">
+                    <span class="timeline_title">Preparing</span>
+                    <span class="timeline_desc">Freshly frying chips</span>
+                  </div>
+                </div>
+
+                <div class="timeline_step">
+                  <div class="timeline_icon">
+                    <i class="ri-e-bike-2-line"></i>
+                  </div>
+                  <div class="timeline_content">
+                    <span class="timeline_title">Out for Delivery</span>
+                    <span class="timeline_desc">Courier on route</span>
+                  </div>
+                </div>
+
+                <div class="timeline_step">
+                  <div class="timeline_icon">
+                    <i class="ri-home-heart-line"></i>
+                  </div>
+                  <div class="timeline_content">
+                    <span class="timeline_title">Delivered</span>
+                    <span class="timeline_desc">Enjoy your snack!</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Order Items Mini Summary -->
+            <div class="tracking_items_box">
+              <h4 class="tracking_items_title">Order Items</h4>
+              <div class="tracking_items_list" id="track-items-list">
+                <!-- Rendered dynamically -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--==================== BOTTOM TOAST CONTAINER ====================-->
+    <div class="toast_container" id="toast-container" aria-live="polite"></div>
+
+    <!--==================== CONFETTI CANVAS CONTAINER ====================-->
+    <div class="confetti_container" id="confetti-container"></div>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="./assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== APP MODULES ===============-->
+    <script src="assets/js/products.js"></script>
+    <script src="assets/js/storage.js"></script>
+    <script src="assets/js/toast.js"></script>
+    <script src="assets/js/modal.js"></script>
+    <script src="assets/js/cart.js"></script>
+    <script src="assets/js/wishlist.js"></script>
+    <script src="assets/js/order.js"></script>
+    <script src="assets/js/checkout.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
+
