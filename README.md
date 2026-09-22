@@ -327,9 +327,6 @@ Experience the complete ChipCrave shopping interface:
   </a>
 </p>
 
-🔗 **Live Website:**
-https://chipcrave.netlify.app/
-
 ---
 
 ## 💻 GitHub Repository
@@ -339,9 +336,6 @@ https://chipcrave.netlify.app/
     <img src="https://img.shields.io/badge/GitHub-Source%20Code-181717?style=for-the-badge&logo=github" alt="GitHub Repository">
   </a>
 </p>
-
-🔗 **Repository:**
-https://github.com/Azeem-Toretto-1/ChipCrave
 
 ---
 
